@@ -1,4 +1,3 @@
-murenzi@gmail.com, 56, 61819
-kamali, 78, 8101
-murekezi@gmail.com, 34, 9000
-oreste, 32, 78
+001, sandberg@gmail.com, 90
+002, kwizera2@gmail.com, 80
+003, damour@gmail.com, 34
