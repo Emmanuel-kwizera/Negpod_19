@@ -1,13 +1,12 @@
 #!/bin/bash
 
-
-# Function to create student record
+# Function to create a student record
 function create_student_record {
     read -p "Enter student ID: " student_id
     read -p "Enter student email: " email
     read -p "Enter student age: " age
 
-    # Save student record in file
+    # Save student record in the file
     echo "$student_id, $email, $age" >> students-list_1023.txt
 
     # Print success message in green color
@@ -37,7 +36,6 @@ function update_student_record {
     read -p "Enter updated age: " updated_age
 
     # sed -i "/$update_id/c\\$updated_email, $updated_age, $update_id" students-list_1023.txt
-
 
     sed -i "" "s/^$update_id,.*/$update_id, $updated_email, $updated_age/" students-list_1023.txt
 
