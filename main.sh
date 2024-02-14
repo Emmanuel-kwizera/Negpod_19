@@ -3,12 +3,12 @@
 
 # Function to create student record
 function create_student_record {
+    read -p "Enter student ID: " student_id
     read -p "Enter student email: " email
     read -p "Enter student age: " age
-    read -p "Enter student ID: " student_id
 
     # Save student record in file
-    echo "$email, $age, $student_id" >> students-list_1023.txt
+    echo "$student_id, $email, $age" >> students-list_1023.txt
 
     # Print success message in green color
     printf "\n\033[32mStudent record created successfully.\033[0m\n"
@@ -16,7 +16,9 @@ function create_student_record {
 
 # Function to view all students
 function view_all_students {
-    echo "Student Email, Age, Student ID"
+    printf "\033[34mStudent records:\033[0m\n\n"
+
+    printf "\033[34mID, Email, Age\033[0m\n"
     cat students-list_1023.txt
 }
 
@@ -36,8 +38,11 @@ function update_student_record {
 
     # sed -i "/$update_id/c\\$updated_email, $updated_age, $update_id" students-list_1023.txt
 
-    sed -i "" "/$update_id/c\\
-    $updated_email, $updated_age, $update_id" students-list_1023.txt
+
+    sed -i "" "s/^$update_id,.*/$update_id, $updated_email, $updated_age/" students-list_1023.txt
+
+    # sed -i "" "/$update_id/c\\
+    # $updated_email, $updated_age, $update_id" students-list_1023.txt
 
     printf "\n\033[32mStudent record updated successfully.\033[0m\n"
 }
