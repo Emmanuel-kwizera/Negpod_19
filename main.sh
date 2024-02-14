@@ -11,7 +11,7 @@ function create_student_record {
     echo "$email, $age, $student_id" >> students-list_1023.txt
 
     # Print success message in green color
-    echo -e "Student record created successfully"
+    printf "\n\033[32mStudent record created successfully.\033[0m\n"
 }
 
 # Function to view all students
@@ -25,6 +25,7 @@ function delete_student_record {
     read -p "Enter student ID to delete: " delete_id
     # sed -i "/\"$delete_id\"/d" students-list_1023.txt
     sed -i "" "/$delete_id/d" students-list_1023.txt
+    printf "\n\033[32mStudent record deleted successfully.\033[0m\n"
 }
 
 # Function to update student record
@@ -34,9 +35,11 @@ function update_student_record {
     read -p "Enter updated age: " updated_age
 
     # sed -i "/$update_id/c\\$updated_email, $updated_age, $update_id" students-list_1023.txt
-    
+
     sed -i "" "/$update_id/c\\
     $updated_email, $updated_age, $update_id" students-list_1023.txt
+
+    printf "\n\033[32mStudent record updated successfully.\033[0m\n"
 }
 
 while true; do
@@ -67,11 +70,11 @@ while true; do
             update_student_record
             ;;
         5)
-            echo "Exiting..."
+            printf "\033[34mGoodbye!\033[0m\n"
             exit 0
             ;;
         *)
-            echo "Invalid choice. Please try again."
+            printf "\033[31mInvalid choice. Please try again.\033[0m\n"
             ;;
     esac
 done
