@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration
-SOURCE_DIR="./Negpod_id-q1"
+SOURCE_DIR="Negpod_19-q1"
 DEST_HOST="2f05c1f8800b.3be8ebfc.alu-cod.online"
 DEST_USER="2f05c1f8800b"
 DEST_DIR="/summative/1023-2024j"
