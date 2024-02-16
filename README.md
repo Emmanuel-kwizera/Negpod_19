@@ -4,8 +4,8 @@
 
 # Contributors
 
-- Felix Dusengimana
-- Rwaka Junior Shima
-- Emmanuel Kwizera
-- J D Amour Tuyishime
-- Jacques Twizeyimana
+- [Felix Dusengimana](https://github.com/felixdusengimana)
+- [Rwaka Junior Shima](https://github.com/jrwaka)
+- [Emmanuel Kwizera](https://github.com/Emmanuel-kwizera)
+- [J D Amour Tuyishime](https://github.com/tuyishimejeandamour)
+- [Jacques Twizeyimana](https://github.com/jacques-twizeyimana)
