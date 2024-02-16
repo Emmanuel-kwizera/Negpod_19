@@ -42,7 +42,25 @@ Execute the `select-emails.sh` script to select and save student emails:
 ```bash
 ./select-emails.sh
 ```
-The selected emails will be saved in the file student-emails.txt.
+The selected emails will be saved in the file `student-emails.txt`.
+
+### Question 2: Automation with Linux
+
+Move the four expected files to the designated directory using the `move-to-directory.sh` script:
+
+```bash
+./move-to-directory.sh
+```
+
+Backup to Remote Server
+Execute the `backup-Negpod_19.sh` script to backup the directory to the remote server:
+
+```bash
+./backup-Negpod_19.sh
+```
+
+### Step 4: Verify the Results
+Check the contents of the `Negpod_19` directory for the moved files and verify the backup on the remote server.
 
 
 # Contributors
