@@ -2,4 +2,5 @@
 002, kwizera2@gmail.com, 80
 003, damour@gmail.com, 34
 004, j.rwaka@alustudent.com, 54
+005, f.dusengiman@alustudent.com, 102
 studentId1234, student@gmail.com, 23
