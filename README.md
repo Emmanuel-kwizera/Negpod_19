@@ -31,8 +31,18 @@ Execute the `main.sh` script to interact with the student registration system:
 ```
 
 Follow the following on-screen instructions to create, view, delete, update student records, and perform searches.
+
 ![image](https://github.com/Emmanuel-kwizera/Negpod_19/assets/73703812/a59a5c31-753c-457a-8ffa-53f40e719cf6)
 
+
+### Searching and Sorting
+
+Execute the `select-emails.sh` script to select and save student emails:
+
+```bash
+./select-emails.sh
+```
+The selected emails will be saved in the file student-emails.txt.
 
 
 # Contributors
