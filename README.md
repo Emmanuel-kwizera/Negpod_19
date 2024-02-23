@@ -1,4 +1,4 @@
-### Negpod_19 ALU Registration System Application(BSE Group Coding Session Summative)
+### Negpod_19 ALU Registration System Application (BSE Group Coding Session 19 Summative)
 
 # Installation
 
