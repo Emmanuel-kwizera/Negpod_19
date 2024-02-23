@@ -1,8 +1,8 @@
-### Negpod_19 ALU Registration System Application (BSE Group Coding Session 19 Summative)
+### Negpod_19 ALU Registration System Application (BSE Group Coding Session Summative)
 
 # Installation
 
-## Step 1: Clone the Repository
+## Step 1: Clone the Repository and change to the respective directory
 
 ``` bash
 git clone https://github.com/Emmanuel-kwizera/Negpod_19.git
@@ -11,7 +11,7 @@ cd Negpod_19
 
 ## Step 2: Set Permissions
 
-Ensure that the shell scripts are executable:
+Make sure that the shell scripts are executable:
 
 ```bash
 chmod +x main.sh
