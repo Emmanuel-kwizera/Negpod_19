@@ -60,7 +60,7 @@ verify if you linux have `sshpass` tool if not you can install by
 sudo apt install sshpass
 ```
 
-Execute the `backup-Negpod_19.sh` file to backup the directory to the remote server:
+Execute the `backup-Negpod_19.sh` script to backup the directory to the remote server:
 
 ```bash
 ./backup-Negpod_19.sh
