@@ -53,6 +53,13 @@ Move the four expected files to the designated directory using the `move-to-dire
 ```
 
 Backup to Remote Server
+
+verify if you linux have `sshpass` tool if not you can install by
+
+```bash
+sudo apt install sshpass
+```
+
 Execute the `backup-Negpod_19.sh` script to backup the directory to the remote server:
 
 ```bash
